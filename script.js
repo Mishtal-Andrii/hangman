@@ -84,7 +84,7 @@ window.addEventListener('keydown', e => {
 
         displayWord();
       } else {
-        showNotification();
+        showNotification();            
       }
     } else {
       if (!wrongLetters.includes(letter)) {
